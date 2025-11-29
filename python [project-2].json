@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "697ad176-4924-4602-85ed-c19b556f4d81",
+      "cell_type": "markdown",
+      "source": "# Simple Calculator using Functions",
+      "metadata": {}
+    },
+    {
+      "id": "1818ea4a-7178-48a3-97cd-265644051535",
+      "cell_type": "markdown",
+      "source": "# Simple Calculator using Functions",
+      "metadata": {}
+    },
+    {
+      "id": "ff6e3b68-d467-48ca-b15e-b118bad2a021",
+      "cell_type": "code",
+      "source": "# Function for addition\ndef add(a,b):\n    return a + b",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 3
+    },
+    {
+      "id": "22dd00fd-3d77-433a-a0eb-5be43fc85a36",
+      "cell_type": "code",
+      "source": "# Function for subtraction\ndef subtract(a, b):\n    return a - b",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 4
+    },
+    {
+      "id": "9fdf32fb-be73-4d8d-a48f-1e258edeabb3",
+      "cell_type": "code",
+      "source": "# Function for multiplication\ndef multiply(a,b):\n    return a * b",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 5
+    },
+    {
+      "id": "29e7ff06-59c2-4dd0-bbaf-b5d3d611b3c5",
+      "cell_type": "code",
+      "source": "# Function for division\ndef divide(a,b):\n    if b == 0:\n        return \"Error! Division by zero is not allowed.\"\n    else:\n        return a / b\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 6
+    },
+    {
+      "id": "fbe8a905-7944-4dad-a48a-938996b28bcb",
+      "cell_type": "code",
+      "source": "print(\"welcome to simple calculator!\")\nprint(\"choose an operation: +, -, *, /\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "welcome to simple calculator!\nchoose an operation: +, -, *, /\n"
+        }
+      ],
+      "execution_count": 10
+    },
+    {
+      "id": "04e3dd09-8ffc-4d59-911f-a88e4b56493f",
+      "cell_type": "code",
+      "source": "# Taking user input\noperation = input(\"Enter operation (+, -, *, /):\")\na = float(input(\"Enter first number: \"))\nb = float(input(\"Enter second number: \"))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "Enter operation (+, -, *, /): *\nEnter first number:  5\nEnter second number:  3\n"
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "id": "09dae6bf-f491-478e-bec8-dbbd7136b3bf",
+      "cell_type": "code",
+      "source": "# Performing operation using functions\nif operation == \"+\":\n    result = add(a, b) \nelif operation == \"_\":\n    result = subtract(a, b)\nelif operation == \"*\":\n    result = multiply(a, b)\nelif operation == \"/\":\n    result = divide(a, b)\nelse:\n    result = \"Invalid operation!\"",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 13
+    },
+    {
+      "id": "d526abea-067e-4814-be6b-3362609c503b",
+      "cell_type": "code",
+      "source": "# Display the result\nprint(\"Result:\", result)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Result: 15.0\n"
+        }
+      ],
+      "execution_count": 14
+    },
+    {
+      "id": "1db12f46-e652-4b6f-a4eb-fb4486d96ebe",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "xpython",
+      "display_name": "Python 3.13 (XPython)",
+      "language": "python"
+    },
+    "language_info": {
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "version": "3.13.1"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "10e40b88-dc97-440b-8d4d-828abf6fba63",
+      "cell_type": "code",
+      "source": "###python programs DURGA PRASAD",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 2
+    },
+    {
+      "id": "9c4f9988-3ad8-4ff4-b636-caffa6c0dc5d",
+      "cell_type": "code",
+      "source": "#1.WAP AREA OF RECTANGLE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 12
+    },
+    {
+      "id": "d5d4ad1d-bf77-4b4b-8275-391b25295ceb",
+      "cell_type": "code",
+      "source": "l =int(input(\"Enter lenth in cm\"))\nb =int(input(\"Enter breadth in cm\"))\na =1*b\nprint(\"The area of area rectangle is:\", a ,\"cm^2\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "Enter lenth in cm 50\nEnter breadth in cm 20\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "The area of area rectangle is: 20 cm^2\n"
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "id": "f2a1ac7f-e1ec-4f14-8f91-f876260a7561",
+      "cell_type": "code",
+      "source": "#2.WAP AREA OF CIRCLE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "7148a0ae-ba46-4373-a697-f67570075f9b",
+      "cell_type": "code",
+      "source": "r =int(input(\"enter your radius\"))\na =3.14*(r*r)\nprint(\"your area is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter your radius 50\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "your area is: 7850.0\n"
+        }
+      ],
+      "execution_count": 26
+    },
+    {
+      "id": "f88cf3f6-3a9c-4dc3-a995-dd931c1af801",
+      "cell_type": "code",
+      "source": "l=int(input(\"enter length\"))\nb=int(input(\"enter breadth\"))\nh=int(input(\"enter height\"))\na=2*(l*b+b*h+h*l)\nprint(\"the area is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter length 30\nenter breadth 40\nenter height 30\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "the area is: 6600\n"
+        }
+      ],
+      "execution_count": 29
+    },
+    {
+      "id": "2e4f8fb8-7e7b-401f-9a06-eee95b30f11b",
+      "cell_type": "code",
+      "source": "#WAP AREA OF CUBE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "21c65fb0-18c1-48d1-8e8e-747f93cc4024",
+      "cell_type": "code",
+      "source": "a=int(input(\"enter length of cube\"))\nx=6*(a*a)\nprint(\"the area of cube is:\",x)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter length of cube 10\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "the area of cube is: 600\n"
+        }
+      ],
+      "execution_count": 30
+    },
+    {
+      "id": "34bf7b16-85bb-45c8-8cd9-88fb5b2197a4",
+      "cell_type": "code",
+      "source": "#WAP AREA OF CSA OF CYLINDER",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "9e3df658-9858-457d-90e2-07714247b919",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius\"))\nh=int(input(\"enter height\"))\na=2*(3.14*(r*h))\nprint(\"your c.s.a is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius 10\nenter height 11\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "your c.s.a is: 690.8000000000001\n"
+        }
+      ],
+      "execution_count": 32
+    },
+    {
+      "id": "c86d88e8-0e6a-4ba6-8ce3-6e72c96a9752",
+      "cell_type": "code",
+      "source": "#WAP AREA OF CSA OF CONE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "eefef088-2297-4122-a0ea-000a3ec3d00e",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius \"))\nl+int(input(\"enter length\"))  \na=3.14*r*1\nprint(\"csa is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius  10\nenter length 10\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "csa is: 31.400000000000002\n"
+        }
+      ],
+      "execution_count": 34
+    },
+    {
+      "id": "891e856f-98bb-45a9-99e9-d6f3f0fad01b",
+      "cell_type": "code",
+      "source": "#WAP AREA OF TSA OF RIGHT CIRCLE CONE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "d5d38955-bfcf-4e9f-8ab1-b68758898611",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius\"))\nl=int(input(\"enter slant height5\"))\na=3.14*r*(l+r)\nprint(\"the tsa is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius 10\nenter slant height5 5\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "the tsa is: 471.00000000000006\n"
+        }
+      ],
+      "execution_count": 39
+    },
+    {
+      "id": "a6b03481-de65-42fb-95c2-02c2ae1448e5",
+      "cell_type": "code",
+      "source": "#WAP TSA OF SPHERE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "5ea7bd82-94e2-40e0-9dad-f9e82a81fe34",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius\"))\na=4*(3.14*(r*r))\nprint(\"tsa of sphere is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius 10\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "tsa of sphere is: 1256.0\n"
+        }
+      ],
+      "execution_count": 40
+    },
+    {
+      "id": "018d54ca-0703-4219-a064-228bcec4bb60",
+      "cell_type": "code",
+      "source": "#WAP VOLUME OF CUBOID",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "6927221e-f8f0-43c3-80b9-5adeedbf3f6e",
+      "cell_type": "code",
+      "source": "l=int(input(\"enter length\"))\nb=int(input(\"enter breadth\"))\nh=int(input(\"enter height\"))\na=l*b*h\nprint(\"volume of cuboid is:\",a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter length 10\nenter breadth 11\nenter height 12\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "volume of cuboid is: 1320\n"
+        }
+      ],
+      "execution_count": 41
+    },
+    {
+      "id": "b1c9306f-1445-43ee-bc1c-47f3e21ca0f1",
+      "cell_type": "code",
+      "source": "#WAP VOLUME OF CUBE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "490eef67-2361-41f0-9330-d4029c6ed742",
+      "cell_type": "code",
+      "source": "l=int(input(\"enter length\"))\na=l*l*l\nprint(\"volume of cube is:\",a)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter length 10\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "volume of cube is: 1000\n"
+        }
+      ],
+      "execution_count": 42
+    },
+    {
+      "id": "50cf636a-c4d8-450b-9f47-7c30f374b707",
+      "cell_type": "code",
+      "source": "#WAP VOLUME OF CYLINDER",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "fa86b016-869c-487a-b9e3-88f88f2bb7f8",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius\"))\nh=int(input(\"enter height\"))\nv=3.14*(r*r)*h\nprint(\"volume is:\",v)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius 3\nenter height 10\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "volume is: 282.6\n"
+        }
+      ],
+      "execution_count": 44
+    },
+    {
+      "id": "829a35c2-edec-498c-824f-7b9a7d7059c0",
+      "cell_type": "code",
+      "source": "#WAP VOLUME OF CONE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "74fdf590-ebc1-4ed9-81fd-ccf9632da005",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius\"))\nh=int(input(\"enter height\"))\nv=l/3*(3.14*(r*r)*h)\nprint(\"volume is:\",v)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius 6\nenter height 4\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "volume is: 1507.2\n"
+        }
+      ],
+      "execution_count": 49
+    },
+    {
+      "id": "cc86fb26-f959-47f1-a525-1f744f0c3d4f",
+      "cell_type": "code",
+      "source": "#WAP VOLUME OF SPHERE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "c4aa8feb-72bd-4c28-9c1b-69b89f16f971",
+      "cell_type": "code",
+      "source": "r=int(input(\"enter radius\"))\nv=4/3*(3.14*(r*r*r))\nprint(\"volume is:\",v)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter radius 3\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "volume is: 113.03999999999999\n"
+        }
+      ],
+      "execution_count": 50
+    },
+    {
+      "id": "9c349bd2-b8cc-47f9-8f13-f7af6149d950",
+      "cell_type": "code",
+      "source": "#WAP PERIMETER OF RECTANGLE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "7984829b-0b60-4abf-af69-b51dd288682a",
+      "cell_type": "code",
+      "source": "l=int(input(\"enter length in cm\"))\nb=int(input(\"enter height in cm\"))\na=2*(l+b)\nprint(\"perimeter of recentagle is:\",a,\"cm\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter length in cm 25\nenter height in cm 11\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "perimeter of recentagle is: 72 cm\n"
+        }
+      ],
+      "execution_count": 51
+    },
+    {
+      "id": "4e9c439f-fe78-4c9c-b84e-d6bffb5cb65b",
+      "cell_type": "code",
+      "source": "#WAP AREA OF SQUARE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "c8375b0a-0280-4977-898b-0635a7034bd7",
+      "cell_type": "code",
+      "source": "A=int(input(\"enter length in cm\"))\nx=A*A\nprint(\"your area of square is:\",x,\"cm^2\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter length in cm 3\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "your area of square is: 9 cm^2\n"
+        }
+      ],
+      "execution_count": 52
+    },
+    {
+      "id": "1a1012a1-a8eb-44f4-8912-4b5a60eabbb1",
+      "cell_type": "code",
+      "source": "#WAP AREA OF TRIANGLE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "87a9f232-cdd8-4772-95db-f52058ef7670",
+      "cell_type": "code",
+      "source": "h=int(input(\"enter height\"))\nb=int(input(\"enter base\"))\na=1/2*(b*h)\nprint(\"your area is:\",a,\"cm^2\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter height 5\nenter base 6\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "your area is: 15.0 cm^2\n"
+        }
+      ],
+      "execution_count": 54
+    },
+    {
+      "id": "d0a4b7cb-5842-4686-8d0b-383566d11c3f",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
